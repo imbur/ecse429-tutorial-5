@@ -24,3 +24,12 @@ jacocoTestReport {
 	html.enabled true
     }
 }
+
+sourceSets {
+    test {
+        java {
+            srcDirs = ['./src/test/java' ,'./evosuite-tests']
+        }
+    }
+}
+
